@@ -8,6 +8,8 @@ function addStudent() {
         li.innerText = name;
 
         document.getElementById("studentList").appendChild(li);
+        document.getElementById("count").innerText =
+document.getElementById("studentList").children.length;
 
         document.getElementById("studentName").value = "";
     }
